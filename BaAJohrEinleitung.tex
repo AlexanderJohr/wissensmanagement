@@ -1,0 +1,26 @@
+\section*{Einleitung}
+\addcontentsline{toc}{section}{Einleitung}
+
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+Extension Objects und Document Extensions sind ein hervorragendes Mittel, um die Business Intelligence Software QlikView und Qlik Sense an die individuellen Anforderungen des Anwenders anzupassen. Die Entwicklung der Erweiterungen erfolgt ausschließlich über Webtechnologien wie HTML, CSS und JavaScript. Die Begrenzung auf eine einzige Programmiersprache bedeutet jedoch nicht, dass ausschließlich JavaScript-Entwickler für die Erstellung der Erweiterungen infrage kommen.
+
+Es existiert eine Reihe von Compilern, welche Quellcode anderer Hoch\-sprachen in Java\-Script umwandeln. Einer davon ist der Compiler dart2js der Programmiersprache Dart. Der Autor der vorliegenden Arbeit sammelte in vergangenen Projekten bereits einige Erfahrungen mit dieser neuen Programmiersprache. Sie soll daher als Beispiel für die Analyse der Anwendungsmöglichkeiten der JavaScript generierenden Hochsprachen für die Erweiterungsentwicklung für QlikView und Qlik Sense verwendet werden.
+
+Die Entwicklung der Erweiterungen mit Dart soll nicht weniger komfortabel vonstattengehen, als es mit JavaScript der Fall ist. Durch eventuelle Vorgaben der Plattformen QlikView und Qlik Sense könnte es jedoch Einschränkungen geben. Welche das sind und wie auf diese reagiert werden kann, soll in dieser Arbeit herausgefunden werden.
+
+Ziel der vorliegenden Arbeit ist es darüber hinaus, die strukturgebenden Konzepte der Programmiersprache Dart zu verwenden, um die Erweiterungsentwicklung effektiver und effizienter zu gestalten. Der Einarbeitungsaufwand soll verringert, die Entwicklung beschleunigt und die Portierbarkeit maximiert werden.
+
+Die Arbeit ist folgendermaßen strukturiert:
+
+Das Kapitel \ref{lab:Grundlagen} fasst die notwendigen Grundlagen der Business Intelligence Plattformen QlikView und Qlik Sense, der dazugehörigen Erweiterungen sowie der Programmiersprache Dart zusammen.
+
+Im Kapitel \ref{lab:VorbereitendeEntwicklungVonErweiterungenMitJavaScript} werden ein Extension Object und eine Document Extension für QlikView sowie ein Extension Object für Qlik Sense mit JavaScript entwickelt. An den Beispielen wird der Umgang mit den APIs beschrieben.
+
+Anschließend wird im Kapitel \ref{lab:EntwicklungVonErweiterungenMitDart} für jede erstellte Erweiterung eine entsprechende Variante in Dart entwickelt. Dafür wird zunächst eine Klassenbibliothek erstellt, welche die Entwicklung der Erweiterungen vereinfachen soll. Die durch den zusätzlichen Schritt der Kompilierung entstehenden Nachteile sollen mit der Entwicklung von zwei Pub Transformern kompensiert werden.
+
+Im Kapitel \ref{lab:Ergebnisse} werden die Vor- und Nachteile der Entwicklung von Erweiterungen mit Dart gegenübergestellt und abschließend eine Empfehlung ausgesprochen.
+
+Der Ausblick in Kapitel \ref{lab:Ausblick} beschreibt weitere Anwendungsgebiete, welche mit der Programmier\-sprache Dart für die Entwicklung von Erweiterungen möglich wären.
+
